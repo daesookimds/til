@@ -1,19 +1,19 @@
-Let's review SQL by using w3schools SQL Tutorial.
+## Let's review SQL by using w3schools SQL Tutorial.
 
 From. "w3schools.com"
 
-In troduction to SQL
+### In troduction to SQL
 
 - SQL is a standard language for accessing and manipulating databases.
 
 
-What is SQL?
+### What is SQL?
 
 - SQL stands for Structured Query Language
 - SQL lets you access and manipulate databases
 - SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987
 
-What Can SQL do?
+### What Can SQL do?
 
 - SQL can execute queries against a database
 - SQL can retrieve data from a database
