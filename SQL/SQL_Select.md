@@ -4,6 +4,7 @@
 - The data returned is stored in a result table, called the result-set.
 
 SELECT 구문은 데이터베이스에서 데이터를 선택할 때 사용한다.
+
 SELECT 구문을 사용할 경우 result-set으로 불리는 테이블 형태로 데이터가 반환된다.
 
 ### SELECT Syntax
@@ -42,13 +43,15 @@ CustomerID | CustomerName | ContactName | Address | City | PostalCod | Country
 
 
 ### SELECT Column Example
-- To select CustomerName and City field from Customers table. 
+- To select CustomerName and City field from Customers table.
+
 Customers 테이블에서 CustomerName필드와 City필드 SELECT 하기.
 ```
 SELECT CustomberName, City FROM Customers;
 ```
 
 - To select all fields from Customers table.
+
 Customers 테이블에서 모든 필드 SELECT 하기.
 ```
 SELECT * FROM Customers;
