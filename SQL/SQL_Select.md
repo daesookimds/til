@@ -55,3 +55,24 @@ SELECT CustomberName, City FROM Customers;
 Customers 테이블에서 모든 필드 SELECT 하기.
 ```
 SELECT * FROM Customers;
+```
+
+### SELECT DISTINCT statement
+
+- The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+- Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
+
+SELECT DISTINCT 구문은 오직 구별되는 값만 반환해준다.
+
+보통 테이블에는 중복된 값들이 들어있기 마련인데, 중복된 값을 제외한 유니큐한 값들만 보고 싶을 때 사용하면 된다.
+
+### SELECT DISTINCT syntax
+
+```
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+```
+
+
+
