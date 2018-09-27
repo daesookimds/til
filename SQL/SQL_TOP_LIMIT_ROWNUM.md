@@ -52,6 +52,9 @@ SELECT * FROM Customers
 WHERE ROWNUM <= 3;
 ```
 
+Customers테이블 가장 위에 있는 3개 레코드를 보여주는 구문
+
+
 ### SQL TOP PERCENT Example
 - The following SQL statement selects the first 50% of the records from the "Customers" table:
 ```
@@ -80,3 +83,4 @@ LIMIT 3;
 SELECT * FROM Customers
 WHERE Country='Germany' AND ROWNUM <= 3;
 ```
+Customers 테이블에서 Country가 'Germany'인 데이터 중 가장 위에(테이블에 표시된 순서) 있는 3개 데이터를 불러온다.
